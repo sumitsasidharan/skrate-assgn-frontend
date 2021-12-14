@@ -1,0 +1,22 @@
+.Home {
+   display: flex;
+}
+
+.left__Widgets {
+   flex: 4;
+}
+
+.right__Widgets {
+   flex: 3;
+}
+
+@media (max-width: 1200px) {
+   .SidebarMenu {
+      display: none;
+   }
+
+   .Home {
+      flex-direction: column;
+      align-items: center;
+   }
+}

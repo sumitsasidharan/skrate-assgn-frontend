@@ -1,0 +1,15 @@
+.Sidebar__Icon {
+   width: 72px;
+   height: 72px;
+   margin: 14px;
+   cursor: pointer;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.Sidebar__Icon.active {
+   background-color: rgb(165, 165, 233);
+   border-radius: 5px;
+}

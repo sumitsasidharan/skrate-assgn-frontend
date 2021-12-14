@@ -1,0 +1,57 @@
+.Session {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin: 15px 0;
+   padding: 15px;
+}
+
+.session__profile__img {
+   width: 51px;
+   height: 51px;
+   border-radius: 50%;
+   object-fit: cover;
+}
+
+.session__info,
+.timings {
+   display: flex;
+   flex-direction: column;
+}
+
+.mentor__name,
+.time {
+   font-size: 24px;
+}
+
+.session__topic,
+.date {
+   font-weight: 400;
+   font-size: 22px;
+}
+
+.session_type {
+   width: 126px;
+   height: 62px;
+   font-size: 18px;
+   font-weight: 400;
+   border-radius: 15px;
+   border: none;
+   cursor: pointer;
+
+   background-color: #e8c9d1;
+}
+
+.mentorship {
+   background-color: #e8c9d1;
+}
+
+.review {
+   background-color: #91aee1;
+}
+
+.Sidebar__Icon {
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+}

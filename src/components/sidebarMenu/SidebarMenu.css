@@ -1,0 +1,7 @@
+.SidebarMenu {
+   flex: 1;
+   margin: 0 31px;
+   display: flex;
+   flex-direction: column;
+   max-width: 150px;
+}
