@@ -25,7 +25,7 @@ function App() {
                   <Dashboard />
                </Route>
 
-               {/* Redirects as the below Pages don't exist */}
+               {/* Redirects to home page as the below Pages don't exist */}
                <Route path="/school">
                   <Redirect to="/" />
                </Route>
